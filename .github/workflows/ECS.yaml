@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: ap-south-1                  # Preferred AWS region
-  ECR_REPOSITORY: hariharan # Amazon ECR repository name
-  ECS_SERVICE: hariharan         # Amazon ECS service name
-  ECS_CLUSTER: hariharan          # Amazon ECS cluster name
+  ECR_REPOSITORY: dharunya # Amazon ECR repository name
+  ECS_SERVICE: dharunya         # Amazon ECS service name
+  ECS_CLUSTER: dharunya          # Amazon ECS cluster name
   ECS_TASK_DEFINITION: Dharu-task-defn.json # Path to task definition file
-  CONTAINER_NAME: hariharan           # Container name in task definition
+  CONTAINER_NAME: dharunya           # Container name in task definition
 
 permissions:
   contents: read
