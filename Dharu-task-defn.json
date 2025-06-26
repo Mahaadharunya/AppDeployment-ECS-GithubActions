@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:011528270926:task-definition/hariharan:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:011528270926:task-definition/dharunya:1",
     "containerDefinitions": [
         {
             "name": "dharunya",
