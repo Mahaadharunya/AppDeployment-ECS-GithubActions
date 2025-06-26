@@ -2,10 +2,10 @@
     "taskDefinitionArn": "arn:aws:ecs:ap-south-1:011528270926:task-definition/hariharan:1",
     "containerDefinitions": [
         {
-            "name": "hariharan",
-            "image": "011528270926.dkr.ecr.ap-south-1.amazonaws.com/hariharan:latest",
-            "cpu": 2048,
-            "memory": 4096,
+            "name": "dharunya",
+            "image": "011528270926.dkr.ecr.ap-south-1.amazonaws.com/dharunya:latest",
+            "cpu": 256,
+            "memory": 512,
             "portMappings": [
                 {
                     "containerPort": 80,
@@ -20,7 +20,7 @@
             "systemControls": []
         }
     ],
-    "family": "hariharan",
+    "family": "dharunya",
     "executionRoleArn": "arn:aws:iam::011528270926:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
@@ -48,9 +48,9 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "cpu": "2048",
-    "memory": "4096",
+    "cpu": "256",
+    "memory": "512",
     "registeredAt": "2025-04-17T10:59:01.970Z",
-    "registeredBy": "arn:aws:iam::011528270926:user/hariharan",
+    "registeredBy": "arn:aws:iam::011528270926:user/dharunya",
     "tags": []
 }
